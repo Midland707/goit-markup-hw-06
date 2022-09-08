@@ -537,7 +537,16 @@
           </label>
 
           <label class="modal-form-terms">
-            <input type="checkbox" name="client-terms-check" required />
+            <input
+              class="modal-form-checkbox"
+              type="checkbox"
+              name="client-terms-check"
+              required
+              visually-hidden
+            />
+            <svg class="modal-form-checkbox-icon" width="16" height="15">
+              <use href="./images/icons.svg#icon-checkbox"></use>
+            </svg>
             Погоджуюся з розсилкою та приймаю
             <a href="" target="_blank" class="modal-form-terms-link">Умови договору</a>
           </label>
