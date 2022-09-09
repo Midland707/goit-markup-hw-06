@@ -645,12 +645,11 @@ button {
     background-color: var(--third-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
-
-    transition: fill var(--transition-durat-and-func);
 }
 
 .modal-close-icon {
     fill: #000000;
+    transition: fill var(--transition-durat-and-func);
 }
 
 .modal-close-btn:hover .modal-close-icon {
@@ -727,6 +726,14 @@ button {
     fill: var(--active-color);
 }
 
+.modal-form-comment::placeholder {
+    font-size: 12px;
+    line-height: 1.66;
+    letter-spacing: 0.01em;
+
+    color: rgba(117, 117, 117, 0.5);
+}
+
 .modal-form-comment {
     resize: none;
     height: 120px;
@@ -766,7 +773,7 @@ button {
 }
 
 .modal-form-checkbox {
-    border: 1px solid var(--primary-color);
+    border: 0.2px solid var(--primary-color);
     border-radius: 3px;
     cursor: pointer;
     margin-right: 7px;
