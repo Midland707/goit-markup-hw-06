@@ -736,6 +736,7 @@ button {
 }
 
 .modal-form-comment {
+    display: block;
     resize: none;
     height: 120px;
     width: 100%;
